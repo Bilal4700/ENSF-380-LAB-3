@@ -2,7 +2,7 @@ package ca.ucalgary.ensf380;
 
 public class University {
     public static void main(String[] args) {
-        // Scenario: Professor Smith supervises two students, Alice and Bob.
+        // Scenario: Professor Sarah supervises two students, Randy and Baber.
 
         // Creating an address for the professor
         Address profAddress = new Address();
@@ -50,7 +50,7 @@ public class University {
 
 
         // Output details
-        System.out.println("Professor: " + professorSarah.getName());
+        System.out.println("Professor: " + professorSarah.getName() + " --> Email: " + professorSarah.getPhoneNumber() );
         System.out.println(" ");
         System.out.println("Supervises Students: ");
         System.out.println("1. " + studentRandy.getName() + ": (" + studentRandy.getStudentNumber() + ")" +" Email: "+ studentRandy.getEmailAddress());
