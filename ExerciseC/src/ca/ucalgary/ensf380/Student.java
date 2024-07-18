@@ -11,7 +11,6 @@ public class Student extends Person {
     }
 
     public boolean isEligibleToEnroll() {
-        // Implement eligibility logic here
         return true;
     }
 
