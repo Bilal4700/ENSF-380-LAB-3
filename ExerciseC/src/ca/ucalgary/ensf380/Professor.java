@@ -26,4 +26,8 @@ public class Professor extends Person {
     }
 
    
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> bd62817dc95f4fabf0b55b36dfe2ddc9189e2872

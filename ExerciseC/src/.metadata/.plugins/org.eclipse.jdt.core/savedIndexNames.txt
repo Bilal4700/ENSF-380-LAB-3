@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+/Users/bilalkharal/University of calgary/Summer 2024/ENSF 380/LAB 3/ExerciseC/src/.metadata/.plugins/org.eclipse.jdt.core
