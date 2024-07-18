@@ -13,7 +13,7 @@ public abstract class Person {
         this.nextpersonalNumber = ++lastPersonalNumber;
     }
 
-    public abstract boolean hasValidAddress();
+ 
 
     public String getName() {
         return name;

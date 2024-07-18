@@ -23,7 +23,7 @@ public class University {
         Student studentRandy = new Student("Randy", "30124545");
         studentRandy.setPhoneNumber("587-665-5555");
         studentRandy.setEmailAddress("Randy.orton@ucalgary.ca");
-        studentRandy.setAverageMark(67.3);
+        studentRandy.setAverageMark(74.3);
         studentRandy.setSupervisor(professorSarah);
 
         Student studentBaber = new Student("Baber", "30126767");
@@ -56,9 +56,11 @@ public class University {
         System.out.println("1. " + studentRandy.getName() + ": (" + studentRandy.getStudentNumber() + ")" +" Email: "+ studentRandy.getEmailAddress());
         System.out.println("     Address: " + studentAddressRandy.fullAddress() );
         System.out.println("     Ph: " + studentRandy.getPhoneNumber());
+        System.out.println("     Is Eligible:  " + studentRandy.isEligibleToEnroll());
         System.out.println(" ");
         System.out.println("2. " + studentBaber.getName() + ": (" + studentBaber.getStudentNumber() + ")" +" Email: "+ studentBaber.getEmailAddress());
         System.out.println("     Address: " + studentAddressBaber.fullAddress() );
         System.out.println("     Ph: " + studentBaber.getPhoneNumber());
+        System.out.println("     Is Eligible:  " + studentBaber.isEligibleToEnroll());
     }
 }

@@ -7,13 +7,6 @@ public class Address {
     private String postalCode;
     private String country;
 
-    public boolean validate() {
-        return street != null && !street.isEmpty() &&
-               city != null && !city.isEmpty() &&
-               state != null && !state.isEmpty() &&
-               postalCode != null && !postalCode.isEmpty() &&
-               country != null && !country.isEmpty();
-    }
 
     public String fullAddress() {
         return street + ", " + city + ", " + state + ", " + postalCode + ", " + country;

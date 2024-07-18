@@ -25,11 +25,5 @@ public class Professor extends Person {
         this.salary = salary;
     }
 
-    @Override
-    public boolean hasValidAddress() {
-        Address address = super.address;
-        if (address == null) {
-            return false;
-        }
-        return address.validate();    }
+   
 }
