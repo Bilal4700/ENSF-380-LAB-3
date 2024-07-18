@@ -11,7 +11,7 @@ public class Student extends Person {
     }
 
     public boolean isEligibleToEnroll() {
-        return true;
+    	return averageMark > 80.0;
     }
 
     public void setStudentNumber(String studentNumber) {
@@ -38,12 +38,4 @@ public class Student extends Person {
         return supervisor;
     }
 
-    @Override
-    public boolean hasValidAddress() {
-        Address address = super.address;
-        if (address == null) {
-            return false;
-        }
-        return address.validate();
-    }
 }
